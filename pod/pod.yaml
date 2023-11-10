@@ -1,7 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  namespace: default
+  annotations:
+    subject: this is a pod used for nginx app
   name: nginx
+  labels:
+    env: test
 spec:
   containers:
   - name: nginx
