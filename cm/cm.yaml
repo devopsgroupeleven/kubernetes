@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  userone: user1
+  usertwo: user2
+kind: ConfigMap
+metadata:
+  name: first-cm
